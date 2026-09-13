@@ -1,6 +1,5 @@
 import app from '../../index.ts';
-const url = 'https://deno.land';
-import { handle } from url;
+import { handle } from 'https://deno.land';
 
 export default handle(app);
 export const config = { path: "/*" };
